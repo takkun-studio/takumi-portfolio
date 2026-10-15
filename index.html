@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="巧のAI制作・個人開発ポートフォリオ。AIツール、業務支援、画像生成、ゲーム企画、診断エンジン。">
+<meta name="theme-color" content="#21372f">
+<title>巧 | AI制作・個人開発</title>
+<link rel="stylesheet" href="./styles.css">
+<script src="./main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="トップへ"><span>巧</span><small>TAKUMI / AI BUILDER</small></a>
+  <nav class="desktop-nav" aria-label="メインナビ">
+    <a href="#works">WORKS</a><a href="#approach">APPROACH</a><a href="#profile">PROFILE</a><a href="#contact">CONTACT</a>
+  </nav>
+  <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span><b class="sr-only">メニュー</b></button>
+  <nav id="mobile-nav" class="mobile-nav" hidden><a href="#works">WORKS</a><a href="#approach">APPROACH</a><a href="#profile">PROFILE</a><a href="#contact">CONTACT</a></nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="kicker">INDIVIDUAL AI DEVELOPMENT / 2026</p>
+    <h1>アイデアを、<br><em>使える形</em>に。</h1>
+    <p class="lead">AIを道具にして、日々の面倒を減らすツールから、業務システム、画像生成、ゲーム企画まで。個人で考え、作り、動かす。</p>
+    <div class="hero-actions"><a class="button primary" href="#works">制作物を見る</a><a class="text-link" href="https://github.com/takkun-studio" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+    <div class="hero-meta"><span>BASED IN JAPAN</span><span>AI × TOOLS × CREATIVE</span></div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+    <div class="hero-card back"><span>01</span><b>THINK</b><i></i></div>
+    <div class="hero-card front"><span>巧 / TAKUMI</span><strong>BUILD<br>WHAT<br>WORKS.</strong><i></i></div>
+    <div class="stamp">AI<br>BUILD</div>
+  </div>
+</section>
+
+<section id="works" class="section works">
+  <div class="section-head">
+    <div><p class="eyebrow">SELECTED WORKS / 06</p><h2>作ったもの。</h2></div>
+    <p>公開済みから進行中まで、実際に手を動かしているものだけを掲載。</p>
+  </div>
+  <div class="filters" role="group" aria-label="作品フィルタ">
+    <button class="filter active" data-filter="all" aria-pressed="true">ALL</button>
+    <button class="filter" data-filter="development" aria-pressed="false">DEVELOPMENT</button>
+    <button class="filter" data-filter="creative" aria-pressed="false">CREATIVE</button>
+    <button class="filter" data-filter="concept" aria-pressed="false">CONCEPT</button>
+  </div>
+
+  <div class="project-grid">
+    <article class="project" data-category="development">
+      <div class="project-art art-tools">
+        <svg viewBox="0 0 640 380" role="img" aria-label="計算ツール群を表す概念図"><rect x="70" y="58" width="500" height="264" rx="12"/><path d="M70 118h500M205 118v204M430 118v204"/><circle cx="110" cy="89" r="8"/><circle cx="138" cy="89" r="8"/><path d="M245 164h145M245 205h92M245 246h126"/><path d="M470 161h56v56h-56zM470 241h56v34h-56z"/></svg>
+      </div>
+      <div class="project-body"><div class="project-top"><span>01 / DEVELOPMENT</span><span class="status live">PUBLIC</span></div><h3>ツール棚</h3><p>原価・利益、損益分岐点、マルシェ収支、値引き利益、手取り売上など、商売の判断を早くする計算ツール10種を実装。</p><div class="tags"><span>React</span><span>TypeScript</span><span>Vite</span></div><a class="project-link" href="https://github.com/takkun-studio/tool-shelf" target="_blank" rel="noopener noreferrer">GitHubで見る ↗</a></div>
+    </article>
+
+    <article class="project" data-category="development">
+      <div class="project-art art-support">
+        <svg viewBox="0 0 640 380" role="img" aria-label="スマートフォン支援サイトを表す概念図"><rect x="215" y="38" width="210" height="304" rx="28"/><rect x="235" y="75" width="170" height="84" rx="6"/><circle cx="320" cy="117" r="28"/><path d="M320 101v32M304 117h32"/><path d="M245 194h150M245 226h126"/><rect x="245" y="260" width="64" height="48" rx="5"/><rect x="331" y="260" width="64" height="48" rx="5"/></svg>
+      </div>
+      <div class="project-body"><div class="project-top"><span>02 / DEVELOPMENT</span><span class="status live">PUBLIC</span></div><h3>lelien デジタルサポート</h3><p>iPhone修理、コーティング、料金診断、スマホ講座などの案内をまとめた店舗向けWebサイト。</p><div class="tags"><span>Web</span><span>Static</span><span>Support</span></div><a class="project-link" href="https://github.com/takkun-studio/lelien-digital-support" target="_blank" rel="noopener noreferrer">GitHubで見る ↗</a></div>
+    </article>
+
+    <article class="project" data-category="development">
+      <div class="project-art art-repair">
+        <svg viewBox="0 0 640 380" role="img" aria-label="修理カルテ管理を表す概念図"><rect x="92" y="54" width="456" height="272" rx="16"/><path d="M92 112h456M250 112v214"/><circle cx="140" cy="84" r="10"/><path d="M286 154h202M286 194h170M286 234h190"/><rect x="126" y="150" width="88" height="106" rx="9"/><circle cx="170" cy="186" r="21"/><path d="M137 235c8-27 58-27 66 0"/><path d="M438 278l18 18 42-52"/></svg>
+      </div>
+      <div class="project-body"><div class="project-top"><span>03 / DEVELOPMENT</span><span class="status private">PRIVATE</span></div><h3>修理カルテ</h3><p>顧客管理、修理履歴、写真、同意書、電子署名までを一つにした修理受付・管理システム。Supabaseを利用。</p><div class="tags"><span>Supabase</span><span>Database</span><span>Workflow</span></div><span class="project-link muted">非公開システム</span></div>
+    </article>
+
+    <article class="project" data-category="creative">
+      <div class="project-art art-gen">
+        <svg viewBox="0 0 640 380" role="img" aria-label="ローカル画像生成を表す抽象図"><circle cx="320" cy="190" r="72"/><ellipse cx="320" cy="190" rx="230" ry="92" transform="rotate(28 320 190)"/><ellipse cx="320" cy="190" rx="230" ry="92" transform="rotate(-28 320 190)"/><path d="M295 212l25-67 24 67-70-42h92"/><circle cx="120" cy="105" r="9"/><circle cx="514" cy="95" r="13"/><circle cx="493" cy="294" r="8"/></svg>
+      </div>
+      <div class="project-body"><div class="project-top"><span>04 / CREATIVE</span><span class="status private">LOCAL</span></div><h3>ローカル画像生成ワークフロー</h3><p>MacBook Air M2上のComfyUIを軸に、Checkpoint、LoRA、i2i、履歴管理などをまとめたローカル制作環境。</p><div class="tags"><span>ComfyUI</span><span>Apple Silicon</span><span>Local AI</span></div><span class="project-link muted">ローカル運用</span></div>
+    </article>
+
+    <article class="project" data-category="concept">
+      <div class="project-art art-game">
+        <svg viewBox="0 0 640 380" role="img" aria-label="カワウソのゲーム企画を表す概念図"><path d="M60 300l100-70 90 45 92-86 92 74 90-50 76 87v40H60z"/><circle cx="493" cy="82" r="50"/><rect x="185" y="236" width="130" height="78" rx="5"/><path d="M171 236l79-56 79 56"/><rect x="240" y="264" width="28" height="50"/><path d="M391 130c34-30 84 2 73 42-9 33-63 54-100 20-26-24-4-56 27-62z"/><circle cx="404" cy="155" r="4"/><circle cx="438" cy="155" r="4"/></svg>
+      </div>
+      <div class="project-body"><div class="project-top"><span>05 / CONCEPT</span><span class="status planning">PLANNING</span></div><h3>カワウソのAndroidゲーム企画</h3><p>広告視聴を起点に遊び、設備を拡張していくカワウソ主役のゲーム企画。キャラクターと成長ループを設計中。</p><div class="tags"><span>Android</span><span>Game Design</span><span>Otter</span></div><span class="project-link muted">企画中</span></div>
+    </article>
+
+    <article class="project" data-category="development">
+      <div class="project-art art-engine">
+        <svg viewBox="0 0 640 380" role="img" aria-label="診断エンジンを表すネットワーク図"><path d="M148 84l172 106 174-108M148 296l172-106 174 108M148 84v212M494 82v216"/><circle cx="148" cy="84" r="27"/><circle cx="494" cy="82" r="27"/><circle cx="148" cy="296" r="27"/><circle cx="494" cy="298" r="27"/><circle cx="320" cy="190" r="66"/><path d="M289 194l22 23 43-55"/></svg>
+      </div>
+      <div class="project-body"><div class="project-top"><span>06 / DEVELOPMENT</span><span class="status private">PRIVATE</span></div><h3>診断エンジン</h3><p>複数の判定軸とルールを統合し、候補・整合性・信頼度を扱う診断ロジック。エンジンと出力層を分離して設計。</p><div class="tags"><span>Rules</span><span>Scoring</span><span>Architecture</span></div><span class="project-link muted">非公開開発</span></div>
+    </article>
+  </div>
+</section>
+
+<section id="approach" class="section approach">
+  <div class="section-head"><div><p class="eyebrow">HOW I BUILD</p><h2>作り方。</h2></div><p>大きく構えるより、まず動くものを作って確かめる。</p></div>
+  <div class="approach-grid">
+    <article><b>01</b><span>↗</span><h3>実用から始める</h3><p>「何ができるか」より「何が面倒か」から考える。日常や仕事の詰まりを、そのまま制作テーマにする。</p></article>
+    <article><b>02</b><span>◎</span><h3>小さく検証する</h3><p>一気に完成を狙わず、最小構成で動作確認。使えると分かってから機能を足す。</p></article>
+    <article><b>03</b><span>⌁</span><h3>AIを裏方に置く</h3><p>コード、文章、画像、整理。AIを主役ではなく、制作速度を上げる実務の道具として使う。</p></article>
+  </div>
+</section>
+
+<section id="profile" class="section profile">
+  <div class="profile-mark" aria-hidden="true"><span>巧</span><i>TAKUMI<br>INDIVIDUAL<br>BUILDER</i></div>
+  <div class="profile-copy"><p class="eyebrow">PROFILE</p><h2>巧 / Takumi</h2><p>個人でAIツール、Web、業務支援システム、画像生成環境、ゲーム企画などを制作。専門分野を一つに固定するより、必要なものを必要な形に組み上げるタイプ。</p><p>「人が頑張るしかない作業」を、少しでも機械側へ寄せるのが好き。</p><div class="profile-tags"><span>AI TOOLS</span><span>WEB</span><span>AUTOMATION</span><span>CREATIVE</span></div></div>
+</section>
+
+<section id="contact" class="contact">
+  <div><p class="eyebrow">CONTACT / GITHUB</p><h2>つくる話を、<br>もう少し。</h2><p>公開できる制作物とコードはGitHubにまとめています。</p><a class="button accent" href="https://github.com/takkun-studio" target="_blank" rel="noopener noreferrer">GitHubを開く ↗</a></div>
+  <div class="contact-symbol" aria-hidden="true">↗</div>
+</section>
+</main>
+
+<footer><a class="brand footer-brand" href="#top"><span>巧</span></a><small>© 2026 TAKUMI / BUILT WITH AI AS A TOOL.</small><a href="#top">BACK TO TOP ↑</a></footer>
+</body>
+</html>
